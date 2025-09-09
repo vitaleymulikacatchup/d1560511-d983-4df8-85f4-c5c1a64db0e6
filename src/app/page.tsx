@@ -1,6 +1,6 @@
 "use client";
 import { SiteThemeProvider } from '@/components/sections/ThemeProvider';
-import NavbarLayoutFloatingOverlay from '@/components/navigation/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
+import NavbarLayoutFloatingOverlay from '@/components/navigation/NavbarLayoutFloatingOverlay';
 import SplitHero from '@/components/sections/layouts/hero/SplitHero';
 import SplitAbout from '@/components/sections/layouts/about/SplitAbout';
 import HowToBuy3D from '@/components/sections/layouts/howtobuy/3DHTB';
@@ -36,7 +36,8 @@ export default function Home() {
       </div>
       <div id="about" data-section="about" className="scroll-mt-24" style={{ background: 'white' }}>
         <SplitAbout
-          description="MemeVerse is the ultimate destination to explore, create, and share memes with the community." />
+          description="MemeVerse is the ultimate destination to explore, create, and share memes with the community."
+        />
       </div>
       <div id="how-to-buy" data-section="how-to-buy" className="scroll-mt-24" style={{ background: 'white' }}>
         <HowToBuy3D
